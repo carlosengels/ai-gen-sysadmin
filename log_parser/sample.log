@@ -1,0 +1,17 @@
+2023-10-27 10:30:15,123 ERROR [main] c.e.a.SomeService - Failed to connect to database at 192.168.1.100 due to Connection refused. Request ID: abcdef12-3456-7890-abcd-ef1234567890.
+2023-10-27 10:30:16,456 INFO  [worker] Message processed successfully.
+2023-10-27 10:31:00,789 WARNING [scheduler] Task 'data_cleanup' took too long.
+2023-10-27 10:31:30,000 ERROR [main] c.e.a.SomeService - Failed to connect to database at 192.168.1.101 due to Connection refused. Request ID: zyxwvutr-0987-6543-2109-fedcba987654.
+2023-10-27 10:32:01,111 CRITICAL [api] User 'john.doe' attempted unauthorized access from 203.0.113.45.
+2023-10-27 10:32:02,222 ERROR [worker] Database query FAILED: Table 'users' not found.
+2023-10-27 10:32:03,333 DEBUG [cache] Cache hit for key 'product-123'.
+2023-10-27 10:33:00,444 ERROR [main] c.e.a.SomeService - Failed to connect to database at 192.168.1.102 due to Connection refused. Request ID: 1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d.
+2023-10-27 10:33:10,555 ERROR [worker] Database query FAILED: Table 'users' not found.
+2023-10-27 10:34:00,666 WARNING [security] Malformed request from 10.0.0.1 with invalid header.
+2023-10-27 10:35:00,777 ERROR [auth] Authentication DENIED for user 'guest' from 172.16.0.1.
+2023-10-27 10:35:01,888 CRITICAL [api] User 'john.doe' attempted unauthorized access from 203.0.113.46.
+2023-10-27 10:35:02,999 ERROR [network] Connection TIMEOUT to external service.
+2023-10-27 10:36:00,000 ERROR [network] Connection TIMEOUT to external service.
+2023-10-27 10:37:00,111 Exception in thread "main" java.lang.NullPointerException at com.example.App.process(App.java:42).
+2023-10-27 10:37:01,222 Exception in thread "worker" java.lang.ArrayIndexOutOfBoundsException at com.example.Util.parse(Util.java:15).
+2023-10-27 10:37:02,333 Exception in thread "main" java.lang.NullPointerException at com.example.App.process(App.java:43).
